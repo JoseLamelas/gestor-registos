@@ -1,0 +1,31 @@
+{
+  "name": "gestor-registos",
+  "version": "1.0.0",
+  "description": "Sistema web para gestão de registos policiais - Programação III",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseLamelas/gestor-registos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/JoseLamelas/gestor-registos/issues"
+  },
+  "homepage": "https://github.com/JoseLamelas/gestor-registos#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
